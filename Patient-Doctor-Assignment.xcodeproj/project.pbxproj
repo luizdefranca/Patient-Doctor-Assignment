@@ -10,6 +10,7 @@
 		25456B76227B4476006B0D52 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B75227B4476006B0D52 /* main.m */; };
 		25456B7E227B4761006B0D52 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B7D227B4761006B0D52 /* Doctor.m */; };
 		25456B81227B476F006B0D52 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B80227B476F006B0D52 /* Patient.m */; };
+		25456B84227B588B006B0D52 /* MedicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B83227B588B006B0D52 /* MedicalRecord.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -31,6 +32,8 @@
 		25456B7D227B4761006B0D52 /* Doctor.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Doctor.m; sourceTree = "<group>"; };
 		25456B7F227B476F006B0D52 /* Patient.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Patient.h; sourceTree = "<group>"; };
 		25456B80227B476F006B0D52 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
+		25456B83227B588B006B0D52 /* MedicalRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalRecord.m; sourceTree = "<group>"; };
+		25456B85227B5F1D006B0D52 /* MedicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalRecord.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +69,8 @@
 				25456B75227B4476006B0D52 /* main.m */,
 				25456B7C227B4761006B0D52 /* Doctor.h */,
 				25456B7D227B4761006B0D52 /* Doctor.m */,
+				25456B85227B5F1D006B0D52 /* MedicalRecord.h */,
+				25456B83227B588B006B0D52 /* MedicalRecord.m */,
 				25456B7F227B476F006B0D52 /* Patient.h */,
 				25456B80227B476F006B0D52 /* Patient.m */,
 			);
@@ -128,6 +133,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				25456B84227B588B006B0D52 /* MedicalRecord.m in Sources */,
 				25456B81227B476F006B0D52 /* Patient.m in Sources */,
 				25456B7E227B4761006B0D52 /* Doctor.m in Sources */,
 				25456B76227B4476006B0D52 /* main.m in Sources */,
