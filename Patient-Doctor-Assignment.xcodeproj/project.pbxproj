@@ -11,6 +11,7 @@
 		25456B7E227B4761006B0D52 /* Doctor.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B7D227B4761006B0D52 /* Doctor.m */; };
 		25456B81227B476F006B0D52 /* Patient.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B80227B476F006B0D52 /* Patient.m */; };
 		25456B84227B588B006B0D52 /* MedicalRecord.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B83227B588B006B0D52 /* MedicalRecord.m */; };
+		25456B8B227B6687006B0D52 /* MedicalRecordDatabase.m in Sources */ = {isa = PBXBuildFile; fileRef = 25456B8A227B6687006B0D52 /* MedicalRecordDatabase.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -34,6 +35,8 @@
 		25456B80227B476F006B0D52 /* Patient.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Patient.m; sourceTree = "<group>"; };
 		25456B83227B588B006B0D52 /* MedicalRecord.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalRecord.m; sourceTree = "<group>"; };
 		25456B85227B5F1D006B0D52 /* MedicalRecord.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MedicalRecord.h; sourceTree = "<group>"; };
+		25456B89227B6687006B0D52 /* MedicalRecordDatabase.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = MedicalRecordDatabase.h; sourceTree = "<group>"; };
+		25456B8A227B6687006B0D52 /* MedicalRecordDatabase.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MedicalRecordDatabase.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,6 +75,8 @@
 				25456B85227B5F1D006B0D52 /* MedicalRecord.h */,
 				25456B83227B588B006B0D52 /* MedicalRecord.m */,
 				25456B7F227B476F006B0D52 /* Patient.h */,
+				25456B89227B6687006B0D52 /* MedicalRecordDatabase.h */,
+				25456B8A227B6687006B0D52 /* MedicalRecordDatabase.m */,
 				25456B80227B476F006B0D52 /* Patient.m */,
 			);
 			path = "Patient-Doctor-Assignment";
@@ -137,6 +142,7 @@
 				25456B81227B476F006B0D52 /* Patient.m in Sources */,
 				25456B7E227B4761006B0D52 /* Doctor.m in Sources */,
 				25456B76227B4476006B0D52 /* main.m in Sources */,
+				25456B8B227B6687006B0D52 /* MedicalRecordDatabase.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

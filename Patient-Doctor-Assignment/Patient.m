@@ -16,6 +16,8 @@
     if (self) {
         _name = name;
         _age = age;
+        _symptoms = [NSArray array];
+        _prescriptions = [NSArray array];
     }
     return self;
 }

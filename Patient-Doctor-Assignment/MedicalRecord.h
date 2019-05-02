@@ -11,6 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 @interface MedicalRecord : NSObject
+@property (nonatomic, strong) NSString* patientName;
 @property (nonatomic, strong) NSString* doctorName;
 @property (nonatomic, strong) NSArray* symptoms;
 @property (nonatomic, strong) NSArray* prescritions;

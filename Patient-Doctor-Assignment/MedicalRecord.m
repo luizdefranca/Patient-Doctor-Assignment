@@ -9,10 +9,11 @@
 #import "MedicalRecord.h"
 
 @implementation MedicalRecord
-- (instancetype)initWithDoctorName: (NSString*) doctor andSymptom: (NSArray*) symptoms andPrescription: (NSArray*) prescription
+- (instancetype)initWithDoctorName: (NSString*) doctor andPatient: (NSString*) patient andSymptom: (NSArray*) symptoms andPrescription: (NSArray*) prescription
 {
     self = [super init];
     if (self) {
+        _patientName = patient;
         _doctorName = doctor;
         _symptoms = symptoms;
         _prescritions = prescription;
